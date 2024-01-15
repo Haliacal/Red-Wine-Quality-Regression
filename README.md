@@ -59,7 +59,12 @@ Pickling the model we can save it in a local directory and load it into a flask 
 
 Creating the HTML website we can give users textboxes to input their data. We can send a request to the flask server and receive a JSON file response and access the information to output in the main body of the Website.
 ### Phase 6 - AWS
-- TBC
+
+- EC2 Instance
+- Ubuntu server
+- Uploaded all assets and install nginx
+- Ran model on flask server on Ubuntu
+
 ### Phase 7 - Further Work
 
 - Limits for inputs
