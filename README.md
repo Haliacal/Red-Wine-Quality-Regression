@@ -10,7 +10,7 @@ Using a Red Wine Kaggle Data, I tried to classify the the quality of the wine ba
   - [Phase 1 - Data Collection and Pre-processing](#phase-1---data-collection-and-pre-processing)
   - [Phase 2 - Model](#phase-2---model)
   - [Phase 3 - Model Evaluation and Refinement](#phase-3---model-evaluation-and-refinement)
-  - [Phase 4 - Flask Server](#phase-4---Flask Server)
+  - [Phase 4 - Flask Server](#phase-4---Flask-Server)
   - [Phase 5 - HTML Website](#phase-5---HTML-Website)
   - [Phase 6 - AWS](#phase-6---AWS)
   - [Phase 7 - Further Work](#phase-7---further-work)
