@@ -7,13 +7,12 @@ Using a Red Wine Kaggle Data, I tried to classify the the quality of the wine ba
 
 - [Dataset](#dataset)
 - [Project Phases](#project-phases)
-  - [Phase 0 - Research](#phase-0---research)
   - [Phase 1 - Data Collection and Pre-processing](#phase-1---data-collection-and-pre-processing)
   - [Phase 2 - Model](#phase-2---model)
   - [Phase 3 - Model Evaluation and Refinement](#phase-3---model-evaluation-and-refinement)
-  - [Phase 4 - API Endpoint](#phase-5---API-Endpoint)
-  - [Phase 5 - React Website](#phase-5---React-Website)
-  - [Phase 6 - Mobile App](#phase-6---Mobile-App)
+  - [Phase 4 - Flask Server](#phase-4---Flask-Server)
+  - [Phase 5 - HTML Website](#phase-5---HTML-Website)
+  - [Phase 6 - AWS](#phase-6---AWS)
   - [Phase 7 - Further Work](#phase-7---further-work)
 - [Languages](#Languages)
 - [Packages](#Packages)
@@ -59,7 +58,12 @@ Pickling the model we can save it in a local directory and load it into a flask 
 
 Creating the HTML website we can give users textboxes to input their data. We can send a request to the flask server and receive a JSON file response and access the information to output in the main body of the Website.
 ### Phase 6 - AWS
-- TBC
+
+- EC2 Instance
+- Ubuntu server
+- Uploaded all assets and install nginx
+- Ran model on flask server on Ubuntu
+
 ### Phase 7 - Further Work
 
 - Limits for inputs
