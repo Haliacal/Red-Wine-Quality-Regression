@@ -7,7 +7,7 @@
     body {
       font-family: 'Inter', sans-serif;
     }
-    
+
     .formbold-main-wrapper {
       display: flex;
       align-items: center;
@@ -160,8 +160,7 @@
 		width: 100%;
 		border: 0;
 		margin: 25px 0 10px;
-		box-sizing: border-box;
-		font-size: 15px;
+		box-sizing: border-box;font-size: 15px;
 		height: 35px;
 		text-align: center;
 }

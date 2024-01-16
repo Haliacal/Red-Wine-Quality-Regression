@@ -13,8 +13,8 @@ function onClickedEstimateQuality() {
 
     var estQuality = document.getElementById("uiEstimatedQuality");
   
-    var url = "http://127.0.0.1:5000/predict_quality"; //Use this if you are NOT using nginx which is first 7 tutorials
-    // var url = "/api/predict_home_price"; // Use this if  you are using nginx. i.e tutorial 8 and onwards
+    //var url = "http://127.0.0.1:5000/predict_quality"; //Use this if you are NOT using nginx which is first 7 tutorials
+    var url = "/api/predict_quality"; // Use this if  you are using nginx. i.e tutorial 8 and onwards
   
     $.post(url, {
         volatile_acidity: parseFloat(va.value),
